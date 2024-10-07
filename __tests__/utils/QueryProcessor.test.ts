@@ -8,7 +8,7 @@ describe("QueryProcessor", () => {
         expect(typeof response).toBe("string");
     });
 
-    test("should return andrewid", () => {
+    test("should return andrewid wesleyzh", () => {
         const query = "what is your andrew id";
         const response: string = QueryProcessor(query);
         expect(typeof response).toBe("My andrew id is wesleyzh");
